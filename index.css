@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    color: red;
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .bgvid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Love Light', cursive;
+    margin-bottom: 0;
+}
+form{
+    margin-left: 40%;
+}
+.caption-text{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: 'Stylish', sans-serif;
+}
+.name-cont{
+    margin-left: 40%;
+}
+input{
+    background-color: rgba(255, 182, 193, 0.8);
+    width: 300px;
+    height: 35px;
+    color: red;
+    border: solid 2px red;
+}
+input:focus{
+    border: solid 2.5px red;
+    outline: none;
+    box-shadow: 10px 10px 8px rgba(255, 0, 0, 0.7);
+}
+label{
+    font-size: 20px;
+}
+.labels{
+    display: inline-block;
+}
+.name1{
+    position: relative;
+    right: 240px;
+    top: 5px;
+}
+.name2{
+    position: relative;
+    right: 90px;
+    top: 5px;
+}
+.you{
+    position: relative;
+    right: 125px;
+}
+button{
+    width: 20%;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 41%;
+    background-color: lightpink;
+    color: red;
+    border: solid 2px red;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Stylish', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 8px rgba(255, 0, 0, 0.7);
+}
